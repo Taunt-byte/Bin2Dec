@@ -1,33 +1,33 @@
 # 🔢 Binary-to-Decimal Number Converter
 
 <p align="center">
-  Um conversor simples e intuitivo de números binários para decimais, desenvolvido com HTML, CSS e JavaScript.
+  A simple and intuitive binary-to-decimal number converter built with HTML, CSS, and JavaScript.
 </p>
 
 ---
 
-## 📌 Sobre o projeto
+## 📌 About the Project
 
-O **Binary-to-Decimal Number Converter** é uma aplicação web que permite converter números do sistema binário (base 2) para o sistema decimal (base 10).
+The **Binary-to-Decimal Number Converter** is a web application that allows users to convert numbers from the binary number system (base 2) to the decimal number system (base 10).
 
-O projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais de desenvolvimento web, incluindo manipulação do DOM, validação de entradas, eventos em JavaScript e estilização com CSS.
+This project was developed to practice fundamental web development concepts, including DOM manipulation, input validation, JavaScript events, and CSS styling.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- [x] Converter números binários para decimais.
-- [x] Validar entradas, aceitando apenas os dígitos `0` e `1`.
-- [x] Exibir mensagens para entradas inválidas.
-- [x] Converter ao clicar no botão ou pressionar Enter.
-- [x] Interface simples e responsiva.
+- [x] Convert binary numbers to decimal.
+- [x] Validate inputs, accepting only the digits `0` and `1`.
+- [x] Display error messages for invalid inputs.
+- [x] Convert numbers by clicking the button or pressing Enter.
+- [x] Simple and responsive user interface.
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Technologies Used
 
-- **HTML5:** estrutura da aplicação.
-- **CSS3:** estilização e responsividade.
-- **JavaScript:** lógica de conversão, validação e manipulação do DOM.
-- **Git e GitHub:** versionamento e hospedagem do código-fonte.
+- **HTML5:** Application structure.
+- **CSS3:** Styling and responsive design.
+- **JavaScript:** Conversion logic, input validation, and DOM manipulation.
+- **Git and GitHub:** Version control and source code hosting.
 
-## 📂 Estrutura do projeto
+## 📂 Project Structure
 
 ```text
 binary-to-decimal-converter/
@@ -38,31 +38,29 @@ binary-to-decimal-converter/
 └── README.md
 ```
 
-## 🚀 Como executar o projeto
+## 🚀 How to Run the Project
 
-### 1. Clone o repositório
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Taunt-byte/Bin2Dec.git
 ```
 
-Substitua `SEU-USUARIO` pelo seu nome de usuário do GitHub.
-
-### 2. Acesse a pasta
+### 2. Navigate to the Project Directory
 
 ```bash
 cd binary-to-decimal-converter
 ```
 
-### 3. Execute a aplicação
+### 3. Run the Application
 
-Abra o arquivo `index.html` diretamente no navegador ou utilize a extensão **Live Server** no Visual Studio Code.
+Open the `index.html` file directly in your browser or use the **Live Server** extension in Visual Studio Code.
 
-Não é necessário instalar dependências ou configurar um servidor.
+No dependencies or server configuration are required.
 
-## 🧮 Exemplos de conversão
+## 🧮 Conversion Examples
 
-| Binário (Base 2) | Decimal (Base 10) |
+| Binary (Base 2) | Decimal (Base 10) |
 |:---:|:---:|
 | `0` | `0` |
 | `1` | `1` |
@@ -72,11 +70,11 @@ Não é necessário instalar dependências ou configurar um servidor.
 | `11111111` | `255` |
 | `100000000` | `256` |
 
-### Como funciona?
+### How Does It Work?
 
-A conversão utiliza as potências de 2 correspondentes a cada posição do número binário.
+The conversion uses powers of 2 corresponding to each position in the binary number.
 
-Por exemplo, o número binário `1011` é convertido da seguinte forma:
+For example, the binary number `1011` is converted as follows:
 
 ```text
 1011₂ = (1 × 2³) + (0 × 2²) + (1 × 2¹) + (1 × 2⁰)
@@ -86,55 +84,51 @@ Por exemplo, o número binário `1011` é convertido da seguinte forma:
 1011₂ = 11₁₀
 ```
 
-Na implementação JavaScript, a função `parseInt(binary, 2)` interpreta a entrada como um número na base 2 e retorna seu valor na base 10.
+In the JavaScript implementation, the `parseInt(binary, 2)` function interprets the input as a base-2 number and returns its decimal value.
 
-## 🎯 Objetivos de aprendizagem
+## 🎯 Learning Objectives
 
-Este projeto ajuda a desenvolver conhecimentos em:
+This project helps develop knowledge of:
 
-- Fundamentos de JavaScript.
-- Manipulação do DOM.
-- Expressões regulares e validação de dados.
-- Eventos e funções.
-- Sistemas de numeração.
-- Estruturação de páginas com HTML.
-- Estilização de interfaces com CSS.
-- Organização e documentação de projetos.
+- JavaScript fundamentals.
+- DOM manipulation.
+- Regular expressions and data validation.
+- Events and functions.
+- Number systems.
+- HTML page structure.
+- CSS styling and interface design.
+- Project organization and documentation.
 
-## 🔮 Melhorias futuras
+## 🔮 Future Improvements
 
-As próximas versões poderão incluir:
+Future versions may include:
 
-- Conversão de decimal para binário.
-- Conversão entre binário, decimal, octal e hexadecimal.
-- Botão para copiar resultados.
-- Histórico de conversões.
-- Tema claro e escuro.
-- Melhorias de acessibilidade.
-- Testes automatizados.
+- Decimal-to-binary conversion.
+- Conversion between binary, decimal, octal, and hexadecimal.
+- A button to copy results.
+- Conversion history.
+- Light and dark themes.
+- Accessibility improvements.
+- Automated tests.
 
-## 📸 Capturas de tela
+## 📸 Screenshots
 
-Adicione aqui uma captura de tela da aplicação em funcionamento para demonstrar sua interface.
+Add a screenshot of the application in action to showcase its interface.
 
-Exemplo:
+Example:
 
-```markdown
-![Binary-to-Decimal Converter](./screenshots/converter.png)
-```
+![Binary-to-Decimal Converter](/Assets/converter.png)
 
-Para utilizar esse exemplo, crie uma pasta chamada `screenshots` e salve nela uma imagem chamada `converter.png`.
-
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 **Lucas Neves**
 
-Projeto desenvolvido para fins educacionais e para compor meu portfólio de desenvolvimento de software.
+This project was developed for educational purposes and to be included in my software development portfolio.
 
-## 📄 Licença
+## 📄 License
 
-Este projeto pode ser distribuído sob a licença MIT. Para isso, adicione um arquivo `LICENSE` ao repositório contendo o texto dessa licença.
+This project can be distributed under the MIT License. To do so, add a `LICENSE` file to the repository containing the full text of the license.
 
 ---
 
-⭐ Se este projeto foi útil para você, considere deixar uma estrela no repositório!
+⭐ If you found this project useful, consider giving the repository a star!
