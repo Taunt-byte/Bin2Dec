@@ -43,7 +43,7 @@ binary-to-decimal-converter/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/binary-to-decimal-converter.git
+git clone https://github.com/Taunt-byte/Bin2Dec.git
 ```
 
 Substitua `SEU-USUARIO` pelo seu nome de usuário do GitHub.
